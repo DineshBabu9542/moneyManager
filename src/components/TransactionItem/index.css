@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.list-container-item {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.title-item {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: #334155;
+}
+.btn-con {
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.para-item {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 12px;
+  color: #334155;
+}
+
+.amount-item {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  color: #334155;
+  margin-left: 15px;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+.delete-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .para-item {
+    margin-left: 50px;
+  }
+  .amount-item {
+    margin-left: 60px;
+  }
+}
